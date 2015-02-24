@@ -1,0 +1,12 @@
+package linksharing
+
+import java.util.Date;
+
+class Topic {
+
+	String name;
+	static belongsTo = [createdBy:User]
+	Date dateCreated,lastUpdated;
+    static constraints = {
+    }
+}

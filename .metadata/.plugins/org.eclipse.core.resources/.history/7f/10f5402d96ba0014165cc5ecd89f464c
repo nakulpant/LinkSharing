@@ -1,0 +1,7 @@
+package domaindemo
+
+class Face {
+
+    static constraints = {
+    }
+}
